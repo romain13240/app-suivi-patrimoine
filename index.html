@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suivi patrimoine</title>
+<meta name="description" content="Application personnelle de suivi patrimonial : relevés de gestion, classement des documents, tableaux de suivi.">
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         line-height: 1.6; color: #1f2733; background: #f5f7fa; }
+  .page { max-width: 760px; margin: 0 auto; padding: 40px 22px 70px; }
+  header { border-bottom: 3px solid #2f5d8a; padding-bottom: 18px; margin-bottom: 30px; }
+  h1 { font-size: 27px; margin: 0 0 6px; color: #16324f; }
+  h2 { font-size: 18px; margin: 30px 0 8px; color: #16324f; }
+  p, li { font-size: 15.5px; }
+  .sous-titre { color: #5b6b7d; margin: 0; font-size: 15px; }
+  nav a { color: #2f5d8a; text-decoration: none; margin-right: 16px; font-size: 14.5px; }
+  nav a:hover { text-decoration: underline; }
+  .carte { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px 22px; margin: 22px 0; }
+  ul { padding-left: 22px; }
+  footer { margin-top: 44px; padding-top: 16px; border-top: 1px solid #e2e8f0;
+           color: #6b7a8c; font-size: 13.5px; }
+  code { background: #eef2f7; padding: 1px 5px; border-radius: 4px; font-size: 13.5px; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #dfe6ee; background: #10151c; }
+    h1, h2 { color: #cfe2f5; }
+    .sous-titre, footer { color: #93a2b4; }
+    .carte { background: #171d26; border-color: #26303d; }
+    header { border-color: #4a7fae; }
+    nav a { color: #7fb2e0; }
+    code { background: #1d2530; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+  <h1>Suivi patrimoine</h1>
+  <p class="sous-titre">Application personnelle de suivi patrimonial</p>
+</header>
+<nav><a href="index.html">Accueil</a><a href="confidentialite.html">Confidentialité</a><a href="conditions.html">Conditions d'utilisation</a></nav>
+
+<div class="carte">
+<p><strong>Suivi patrimoine</strong> est un outil personnel qui aide son propriétaire à suivre la gestion de
+ses trois immeubles locatifs. Il a trois usages, et rien d'autre :</p>
+<ul>
+  <li><strong>Récupérer les relevés de gestion</strong> reçus chaque mois par courriel, en extraire les
+      loyers et les charges, et les enregistrer.</li>
+  <li><strong>Classer les documents</strong> (baux, factures, diagnostics, courriers) dans les dossiers
+      de l'espace de stockage en ligne du propriétaire.</li>
+  <li><strong>Tenir les tableaux de suivi</strong> : loyers par immeuble, dépenses, échéances de crédit.</li>
+</ul>
+<p>L'application ne possède qu'un seul utilisateur : son propriétaire. Elle n'ouvre aucune inscription,
+n'héberge aucun compte tiers et ne propose aucun service à des visiteurs. Les autorisations demandées à
+Google servent exclusivement à ces trois usages.</p>
+</div>
+
+<h2>Comment ça fonctionne</h2>
+<p>L'application s'exécute sur un serveur privé, chez son propriétaire, sur le réseau local de son
+domicile. Elle est reliée à son compte Google par les autorisations qu'il a lui-même accordées. Aucun
+serveur intermédiaire n'est utilisé et aucune donnée n'est revendue, publiée ou transmise à des fins
+publicitaires.</p>
+
+<footer>
+  Dernière mise à jour : 21 septembre 2026.<br>
+  Cette application est un outil privé, à usage strictement personnel. Elle n'est ni un service public,
+  ni un produit commercial.
+</footer>
+</div>
+</body>
+</html>
